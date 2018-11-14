@@ -1,3 +1,6 @@
+import games
+import mancala
+
 def test1():
     game = mancala.MancalaGame()
     named_players = (('Max', games.query_player_py_exp), ('Min', games.random_player))
