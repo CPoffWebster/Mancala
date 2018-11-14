@@ -1,6 +1,5 @@
 # Charlie Poff-Webster
-# cs210 - AI with Basye
-# mancala method for project 2
+# mancala method
 
 
 import cs210_utils
@@ -321,7 +320,3 @@ class MancalaGame(object):
         "Return a list of legal (move, state) pairs."
         return [(move, self.make_move(move, state))
                 for move in self.legal_moves(state)]
-
-
-if __name__ == '__main__':
-    cs210_utils.cs210_mainstartup()
