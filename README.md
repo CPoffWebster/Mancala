@@ -1,4 +1,4 @@
-Mancala
+#Mancala
 
 Mancala supports a regular game of Mancala. It can be played with one or two live player. Against random players. 
 Against players using alphabeta within a set branch factor. 
